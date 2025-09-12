@@ -38,4 +38,4 @@ project/
 2. Open notebooks **in order** (01 → 06). Each saves artifacts in `models/` and figures to `notebooks/figures`.
 
 > If your data lives elsewhere (e.g., `D:\IITB\STData`), update `base_path` at the top of each notebook.
->>>>>>> e3fc313 (Initial scaffold commit for T1_G18_Victus (Group 18))
+>>>>>>> e3fc313 (Initial  commit for T1_G18_Victus (Group 18))
