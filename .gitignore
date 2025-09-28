@@ -19,3 +19,6 @@ STData/
 # figures (generated)
 notebooks/figures/
 notebooks/models/
+# local datasets (never version these)
+STData/
+data/
