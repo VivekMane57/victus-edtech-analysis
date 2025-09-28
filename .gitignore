@@ -1,25 +1,25 @@
-﻿# === Data (keep placeholders only) ===
+# ===== DATA (not tracked) =====
 data/**
-!data/README.md
 STData/**
-!STData/README.md
 
-# === Models & checkpoints (keep placeholder only) ===
+# ===== MODELS / CHECKPOINTS =====
 models/**
 !models/README.md
 
-# === Generated figures (keep placeholder only) ===
+# ===== GENERATED FIGURES =====
 notebooks/figures/**
 !notebooks/figures/README.md
 
-# === Python / venv ===
+# ===== PYTHON JUNK =====
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.venv/
-venv/
 
-# === Jupyter ===
+# ===== JUPYTER JUNK =====
 .ipynb_checkpoints/
 *.ipynb_convert
+
+# ===== VIRTUAL ENVS =====
+.venv/
+venv/
