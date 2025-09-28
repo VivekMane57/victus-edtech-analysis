@@ -1,0 +1,21 @@
+﻿# env & caches
+venv/
+__pycache__/
+*.log
+.DS_Store
+
+# local datasets & exports
+STData/
+*.csv
+*.xlsx
+*.txt
+
+# heavy models/checkpoints
+*.pt
+*.pth
+*.npz
+*.npy
+
+# figures (generated)
+notebooks/figures/
+notebooks/models/
