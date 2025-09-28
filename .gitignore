@@ -1,24 +1,25 @@
-﻿# env & caches
-venv/
+﻿# === Data (keep placeholders only) ===
+data/**
+!data/README.md
+STData/**
+!STData/README.md
+
+# === Models & checkpoints (keep placeholder only) ===
+models/**
+!models/README.md
+
+# === Generated figures (keep placeholder only) ===
+notebooks/figures/**
+!notebooks/figures/README.md
+
+# === Python / venv ===
 __pycache__/
-*.log
-.DS_Store
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
 
-# local datasets & exports
-STData/
-*.csv
-*.xlsx
-*.txt
-
-# heavy models/checkpoints
-*.pt
-*.pth
-*.npz
-*.npy
-
-# figures (generated)
-notebooks/figures/
-notebooks/models/
-# local datasets (never version these)
-STData/
-data/
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_convert
